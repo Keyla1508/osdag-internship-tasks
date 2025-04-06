@@ -5,7 +5,7 @@ from OCC.Core.gp import gp_Pnt, gp_Vec, gp_Trsf, gp_Ax1, gp_Dir
 from OCC.Core.BRepBuilderAPI import BRepBuilderAPI_Transform
 
 
-def create_rectangular_prism(length=430.0, breadth=100.0, height=8.0):
+def create_rectangular_prism(length=450.0, breadth=100.0, height=8.0):
     box = BRepPrimAPI_MakeBox(length, breadth, height).Shape()
     return box
 
