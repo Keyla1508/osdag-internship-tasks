@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import openpyxl
 
 # Load the Excel workbook and select the active sheet
-workbook = openpyxl.load_workbook('sfd_bmd.xlsx')
+workbook = openpyxl.load_workbook('C:/Users/vasus/Downloads/FOSSEE/Task-1[SFD&BMD]/sfd_bmd.xlsx') #Eneter your path for the excel file
 sheet = workbook.active
 
 # Lists to store data
